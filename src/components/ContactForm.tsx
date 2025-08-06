@@ -14,7 +14,7 @@ const contactSchema = z.object({
   phone: z.string().min(10, 'Please enter a valid phone number'),
   message: z.string().min(10, 'Please provide more details about your situation'),
   preferredContact: z.enum(['email', 'phone'], {
-    required_error: 'Please select a preferred contact method'
+    message: 'Please select a preferred contact method'
   })
 });
 

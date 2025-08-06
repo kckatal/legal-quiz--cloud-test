@@ -1,4 +1,4 @@
-import { QuizQuestion, UserAnswers, QuizResult, PracticeArea } from '@/types/quiz';
+import { QuizQuestion, UserAnswers, QuizResult } from '@/types/quiz';
 import { practiceAreas } from '@/data/practiceAreas';
 import { quizQuestions } from '@/data/quizQuestions';
 
